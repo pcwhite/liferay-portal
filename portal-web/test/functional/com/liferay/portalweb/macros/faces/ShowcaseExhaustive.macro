@@ -1,0 +1,988 @@
+<definition>
+
+	<command name="AssertAllElementsPresent" >
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/button/general" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		<execute function="AssertElementPresent" locator1="//button/child::node()[contains(@src,'liferay-faces-logo-small.png')]" />
+		<execute function="AssertElementPresent" locator1="//button[contains(text(),'1234')]" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/button/menu" />
+		<execute function="AssertElementPresent" locator1="//a[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/button/navigation" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/button/param" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/button/various-styles" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/general" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		<execute function="AssertElementPresent" locator1="//button/child::node()[contains(@src,'liferay-faces-logo-small.png')]" />
+		<execute function="AssertElementPresent" locator1="//button[contains(text(),'1234')]" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/immediate" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/menu" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/navigation" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+	     	<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/param" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/various-styles" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandbutton/value-attribute" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandlink/general" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		<execute function="AssertElementPresent" locator1="//a/child::node()[contains(@src,'liferay-faces-logo-small.png')]" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandlink/immediate" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandlink/navigation" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandlink/param" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/commandlink/value-attribute" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/link/general" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		<execute function="AssertElementPresent" locator1="//a/child::node()[contains(@src,'liferay-faces-logo-small.png')]" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/link/navigation" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/link/param" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datalist/general" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datalist/data-model" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datalist/selection" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/general" />
+		<execute function="AssertElementPresent" locator1="//button[@type='button']" />
+                <execute function="AssertTextPresent" locator1="//th[contains(text(),'1737')]" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/filter" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/lazy" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/pagination" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/selection" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/server-events" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/sort-single-column" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+                
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/datatable/sort-multiple-columns" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/custom-filter" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/data-model/" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/delay" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/highlighter" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+                
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/min-chars" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/autocomplete/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/date-pattern" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/localization" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/min-max" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/multiple-panes" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+                
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputdate/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputfile/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputfile/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputfile/multiple" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputfile/preview" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputfile/progress" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputfile/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputhidden/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputhidden/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputhidden/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputhidden/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+		
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputsecret/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputsecret/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputsecret/redisplay/" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputsecret/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputsourcecode/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputsourcecode/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtext/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtext/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtext/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtext/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtextarea/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtextarea/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtextarea/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtextarea/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtextarea/right-to-left" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtextarea/size" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/filter" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/highlighter" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/localization" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/min-max" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/step" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/time-pattern" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtime/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/body/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/form/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/form/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/form/view-params" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/head/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/loadconstants/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/progressbar/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/progressbar/client-side" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/progressbar/server-events" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/progressbar/vertical" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/audio/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/audio/graceful-degradation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/audio/alternate-formats" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/audio/html5-passthrough" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/icon/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/image/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/video/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/video/graceful-degradation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/video/alternate-formats" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/video/html5-passthrough" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/message/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/messages/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputformat/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputlabel/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputlink/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputlink/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputremainingchars/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputremainingchars/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputremainingchars/max-length-events" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputscript/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputscript/resource" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputscript/modules" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputstylesheet/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputtext/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputtext/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputtext/right-to-left" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/outputtooltip/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/accordion/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/accordion/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/accordion/multiple" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/accordion/selected-tab" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/accordion/server-events" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/dialog/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/field/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/field/message-styling" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/fieldset/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/panel/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/panelgrid/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/panelgroup/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/popover/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/row/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+                
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/row/column-width" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+                
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/row/column-offset" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/tabview/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/tabview/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/tabview/dynamic-tabs" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/tabview/selected-tab" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/tabview/wizard" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectbooleancheckbox/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectbooleancheckbox/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectbooleancheckbox/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanycheckbox/vertical-layout" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanylistbox/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanylistbox/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanylistbox/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanylistbox/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanylistbox/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanylistbox/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanymenu/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanymenu/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanymenu/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanymenu/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanymenu/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectmanymenu/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonelistbox/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonelistbox/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonelistbox/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonelistbox/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonelistbox/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonelistbox/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonemenu/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonemenu/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonemenu/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonemenu/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonemenu/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectonemenu/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/conversion" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectoneradio/vertical-layout" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectstarrating/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectstarrating/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectstarrating/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectstarrating/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectthumbrating/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/selectthumbrating/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/buttonrow/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/captcha/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/header/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/bbcode" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/creole" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/default-value" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/dom-events" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/immediate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputrichtext/validation" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputsearch/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputsearch/without-button" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputsearch/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/inputsearch/nav-bar" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/nav/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/nav/data-model" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/nav/nav-bar" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/permissionsurl/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/permissionsurl/toplevel" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/permissionsurl/rowlevel" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/permissionsurl/windowstate" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/runtime/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portal/runtime/multiple-instances" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/bridge/inputfile/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/bridge/inputfile/instant-ajax" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/bridge/inputfile/multiple" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portlet/actionurl/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portlet/namespace/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portlet/renderurl/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+<!--
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/portlet/resourceurl/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+-->            
+
+<!--
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/c/choose/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/c/foreach/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/c/if/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/c/set/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/ajax/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/attribute/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/attributes/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/convertdatetime/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/converter/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/convertnumber/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/event/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/facet/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/loadbundle/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/metadata/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/param/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/passthroughattribute/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/passthroughattributes/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/phaselistener/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/resetvalues/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/selectitem/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/selectitems/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/setpropertyactionlistener/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validatebean/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validatedoublerange/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validatelength/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validatelongrange/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validateregex/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validaterequired/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/validator/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/valuechangelistener/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/view/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/viewaction/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/f/viewparam/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/component/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/composition/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/debug/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/decorate/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/define/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/fragment/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/include/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/insert/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/param/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/remove/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+
+                <execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/ui/repeat/general" />
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+-->
+
+	</command>
+	<command name="TestInputs" >
+
+                <!-- open the page for the input text general use case -->
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtext/general" />
+                <!-- asserts that a buton is there ??? -->
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <!-- locate the input text box -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#INPUT_TEXT_1" />
+                <!-- Type 'wibbity shmoo' into the input text box -->
+                <execute function="Type" locator1="ShowcaseFrontPage#INPUT_TEXT_1" value1="wibbity shmoo" />
+
+		<!-- locate the Submit button -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#SUBMIT" />
+                <!-- click the Submit button -->
+                <execute function="AssertClick" locator1="ShowcaseFrontPage#SUBMIT" value1="Submit" />
+
+                <!-- locate the showcase model value -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#MODEL_VALUE" />
+                <!-- assert that the showcase model value contains 'wibbity shmoo' -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#MODEL_VALUE_CONTAINS" />
+
+	</command>
+
+	<command name="TestInputsConversion" >
+
+                <!-- open the page for the input text conversion use case -->
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase/-/component/alloy/inputtext/conversion" />
+                <!-- asserts that a buton is there ??? -->
+                <execute function="AssertElementPresent" locator1="//button[@type='button']" />
+
+                <!-- locate the input text box -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#INPUT_TEXT_1" />
+                <!-- Type 'January 05, 1983' into the input text box -->
+                <execute function="Type" locator1="ShowcaseFrontPage#INPUT_TEXT_1" value1="January 05, 1983" />
+
+		<!-- locate the Submit button -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#SUBMIT_1" />
+                <!-- click the Submit button -->
+                <execute function="AssertClick" locator1="ShowcaseFrontPage#SUBMIT_1" value1="Submit" />
+
+                <!-- locate the showcase model value -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#MODEL_VALUE" />
+                <!-- assert that the showcase model value contains 'Jan 5, 1983' -->
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#MODEL_VALUE_CONTAINS_SPECIFIED_DATE_1" />
+
+
+                <!-- locate the second input text box -->
+                <execute function="AssertElementPresent" locator1="ShowcaseFrontPage#INPUT_TEXT_2" />
+                <!-- Type '01/05/1983' into the input text box -->
+                <execute function="Type" locator1="ShowcaseFrontPage#INPUT_TEXT_2" value1="01/05/1983" />
+
+                <!-- locate the second Submit button -->
+                <execute function="AssertElementPresent" locator1="ShowcaseFrontPage#SUBMIT_2" />
+                <!-- click the Submit button -->
+                <execute function="AssertClick" locator1="ShowcaseFrontPage#SUBMIT_2" value1="Submit" />
+
+                <!-- locate the second showcase model value -->
+                <execute function="AssertElementPresent" locator1="ShowcaseFrontPage#MODEL_VALUE_2" />
+                <!-- assert that the showcase model value contains '01/05/1983' -->
+                <execute function="AssertElementPresent" locator1="ShowcaseFrontPage#MODEL_VALUE_CONTAINS_SPECIFIED_DATE_2" />
+
+        </command>
+
+</definition>
+

@@ -1,0 +1,7 @@
+<definition>
+	<command name="SmokeMacroCommand">
+		<execute function="Open" locator1="http://localhost:8080/web/guest/showcase" />
+		<execute function="AssertElementPresent" locator1="ShowcaseFrontPage#COMPONENT_SHOWCASE_IMG" />
+	</command>
+</definition>
+

@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>ShowcaseFrontPage</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ShowcaseFrontPage</td></tr>
+</thead>
+<tbody>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>COMPONENT_SHOWCASE_IMG</td>
+	<td>//img[contains(@src,'javax.faces.resource=component-showcase.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>INPUT_TEXT_1</td>
+	<td>xpath=(//input[contains(@id,':text')])[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>SUBMIT</td>
+	<td>//button[@value='Submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>MODEL_VALUE</td>
+	<td>//span[contains(@id,':modelValue')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>MODEL_VALUE_2</td>
+	<td>xpath=(//span[contains(@id,':modelValue')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>MODEL_VALUE_CONTAINS</td>
+	<td>//span[contains(text(),'wibbity shmoo')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>INPUT_TEXT_2</td>
+	<td>xpath=(//input[contains(@id,':text')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>SUBMIT_1</td>
+	<td>xpath=(//button[@value='Submit'])[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>SUBMIT_2</td>
+	<td>xpath=(//button[@value='Submit'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>MODEL_VALUE_CONTAINS_SPECIFIED_DATE_1</td>
+	<td>//span[contains(text(),'Jan 5, 1983')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>MODEL_VALUE_CONTAINS_SPECIFIED_DATE_2</td>
+	<td>//span[contains(text(),'01/05/1983')]</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

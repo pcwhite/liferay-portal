@@ -1,0 +1,34 @@
+<definition component-name="portal-smoke">
+	<property name="testray.main.component.name" value="Administration" />
+
+	<var name="pageName" value="Showcase" />
+
+	<set-up>
+		<execute macro="User#firstLoginPG" />
+
+		<execute macro="Page#addPG">
+			<var name="pageName" value="showcase" />
+			<var name="pageType" value="1 Column" />
+		</execute>
+
+		<execute macro="Portlet#addPG">
+			<var name="portletName" value="Showcase" />
+		</execute>
+	</set-up>
+
+	<tear-down>
+		<execute macro="Page#tearDownPG" />
+	</tear-down>
+
+	<command name="01_Smoke" priority="2">
+		<execute macro="ShowcaseSmoke#SmokeMacroCommand" />
+	</command>
+
+	<command name="02_Exhaustive" priority="1">
+		<!-- execute macro="ShowcaseExhaustive#AssertAllElementsPresent" / -->
+		<execute macro="ShowcaseExhaustive#TestInputs" />
+		<execute macro="ShowcaseExhaustive#TestInputsConversion" />
+	</command>
+
+</definition>
+
