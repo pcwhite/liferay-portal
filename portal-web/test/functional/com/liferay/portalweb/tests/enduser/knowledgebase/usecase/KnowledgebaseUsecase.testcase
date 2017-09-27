@@ -1094,6 +1094,8 @@
 			<var name="pageName" value="Knowledge Base Page" />
 		</execute>
 
+		<execute function="Pause" locator1="500" />
+
 		<execute macro="KBArticle#viewChildArticlePG">
 			<var name="kbArticleTitle" value="Knowledge Base Article Title" />
 			<var name="kbChildArticleContent" value="Child Article Content" />
