@@ -72,7 +72,7 @@
 
 		<var method="StringUtil#replace('${imageFileName}', ' ', '+')" name="key_imageFileName" />
 
-		<execute function="Pause" locator1="1000" />
+		<execute function="AssertVisible#pauseAssertVisible" locator1="ItemSelector#SELECT_FILE_IMAGE_PREVIEW" />
 
 		<execute function="Click" locator1="ItemSelector#SELECT_FILE_IMAGE_PREVIEW" />
 
