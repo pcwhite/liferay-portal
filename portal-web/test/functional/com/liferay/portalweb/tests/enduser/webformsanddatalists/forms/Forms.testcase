@@ -2349,7 +2349,7 @@
 			<var name="fieldValue" value="Grid Field Survey" />
 		</execute>
 
-		<for list="1,2,3" param="optionNumber">
+		<for list="2,3" param="optionNumber">
 			<execute macro="FormFields#editGridOptions">
 				<var name="gridField" value="row" />
 				<var name="optionValue" value="Option ${optionNumber}" />
@@ -2357,7 +2357,7 @@
 			</execute>
 		</for>
 
-		<for list="1,2,3" param="optionNumber">
+		<for list="2,3" param="optionNumber">
 			<execute macro="FormFields#editGridOptions">
 				<var name="gridField" value="column" />
 				<var name="optionValue" value="Category ${optionNumber}" />
@@ -2458,7 +2458,7 @@
 			<var name="formPageNext" value="Page 2" />
 		</execute>
 
-		<for list="1,2,3" param="optionNumber">
+		<for list="2,3" param="optionNumber">
 			<execute macro="FormFields#selectGridRadioOption">
 				<var name="categoryColumnName" value="Category${optionNumber}" />
 				<var name="optionRowName" value="Option${optionNumber}" />
@@ -2522,7 +2522,7 @@
 		<execute macro="FormsAdmin#viewRadioEntry">
 			<var name="fieldLabel" value="Radio" />
 			<var name="fieldName" value="Radio" />
-			<var name="fieldValue" value="Option 1" />
+			<var name="fieldValue" value="Option" />
 		</execute>
 
 		<execute macro="FormsAdmin#viewDateEntry">
